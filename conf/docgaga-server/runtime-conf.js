@@ -11,12 +11,12 @@ const SCOPE_NOTE_READ_WRITE = 's_n_rw',
 
 module.exports = {
     mongoConfig: {
-        url: 'mongodb://docgaga:123456@192.168.41.3:27017/docgaga'  //TODO 账号密码，地址端口需填写
+        url: 'mongodb://docgaga:123456@mongo:27017/docgaga'  //TODO 账号密码，地址端口需填写
     },
     serverConfig: {
         'host': 'https://api.docgaga.club:8443',  //TODO 需填写
         'port': 8443,  //TODO 需填写
-        'urlPrefix': `https://api.docgaga.club:8443/docgaga`,  //TODO 域名端口需填写
+        'urlPrefix': 'https://api.docgaga.club:8443/docgaga',  //TODO 域名端口需填写
         'assetsPath': '/docgaga/public',
         'contextPath': '/docgaga'
     },

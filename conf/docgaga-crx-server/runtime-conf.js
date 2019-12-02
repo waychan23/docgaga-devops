@@ -29,6 +29,6 @@ module.exports = {
         sessionKey: 'sessionKey' //TODO 需填写
     },
     mongoConfig: {
-        url: 'mongodb://docgagacrx:123456@192.168.41.3:27017/docgagacrx' //TODO 账号密码、地址端口需填写
+        url: 'mongodb://docgagacrx:123456@mongo:27017/docgagacrx' //TODO 账号密码、地址端口需填写
     }
 };

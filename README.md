@@ -125,9 +125,7 @@
 
   7. 数据库索引初始化
   ```
-  执行 $WORKDIR/docgaga-server/init/init-database.js NodeJS 脚本
-  或
-  使用 $WORKDIR/docgaga-server/init/model 目录下，对应表的索引定义，到其他 MongoDB 端上创建索引
+  本仓库的 init/db 目录下有两个 MongoDB JavaScript 脚本，第一次初始化 MongoDB 镜像时，会自动执行。如果使用已有的 MongoDB，请自行到数据库上执行这两个脚本。
   ```
 
   8. 服务器部署完成
