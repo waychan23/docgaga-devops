@@ -29,7 +29,24 @@
 
   * 关于名称，“汤圆笔记”这个名称是一个灵感，如有雷同，纯属巧合。"Docgaga" 是另外一个灵感，意为“文档狂人”，笔者取之作为汤圆笔记代码库的名称。
 
-  * 演示视频：https://v.qq.com/x/page/t0554z80wdv.html
+  * 浏览器插件演示视频：https://v.qq.com/x/page/t0554z80wdv.html
+  
+  * 浏览器插件演示截图： 
+  
+    - 控制台
+    ![Image text](https://raw.githubusercontent.com/waychan23/ref-resources/master/docgaga/img/demo-0002.png)
+  
+    - 笔记列表
+    ![Image text](https://raw.githubusercontent.com/waychan23/ref-resources/master/docgaga/img/demo-0003.png)
+  
+    - 添加简单笔记
+    ![Image text](https://raw.githubusercontent.com/waychan23/ref-resources/master/docgaga/img/demo-0004.png)
+  
+    - 标记页面内容
+    ![Image text](https://raw.githubusercontent.com/waychan23/ref-resources/master/docgaga/img/demo-0005.png)
+  
+    - 添加页面标记注解
+    ![Image text](https://raw.githubusercontent.com/waychan23/ref-resources/master/docgaga/img/demo-0006.png)
 
 ## 2. 组件
 
