@@ -134,7 +134,7 @@
 ## 4. 浏览器插件部署指南
 
   - 所需环境：
-    1. NodeJS 8+
+    NodeJS 8+
   
   - 步骤：
     1. 拉取 docgaga-crx 代码到工作目录（下文用 CRX_WORKDIR 指代）
@@ -142,8 +142,10 @@
     cd $CRX_WORKDIR
     git clone https://github.com/waychan23/docgaga-crx
     ```
+    
+    2. 修改 `src/js/conf/config.js` 文件中的服务器配置
 
-    2. 安装依赖并进行构建
+    3. 安装依赖并进行构建
     ```
     cd $CRX_WORKDIR/docgaga-crx
     npm install
@@ -151,11 +153,11 @@
     # 如果是开发，可以使用 npm run watch，该命令会持续监控文件的修改，并自动重新构建
     ```
 
-    3. 构建完成，$CRX_WORKDIR/docgaga-crx/build 即为插件的安装目录，该目录可以复制到其它位置
+    4. 构建完成，$CRX_WORKDIR/docgaga-crx/build 即为插件的安装目录，该目录可以复制到其它位置
 
-    4. 打开 Chrome 浏览器，打开插件管理页面，开启“开发者模式”，加载未打包（Unpack）目录，选择 $CRX_WORKDIR/docgaga-crx/build，确定即可
+    5. 打开 Chrome 浏览器，打开插件管理页面，开启“开发者模式”，加载未打包（Unpack）目录，选择 $CRX_WORKDIR/docgaga-crx/build，确定即可
 
-    5. 安装完成后，已打开的页面需要刷新才能加载汤圆笔记
+    6. 安装完成后，已打开的页面需要刷新才能加载汤圆笔记
 
 
 ## 5. 注意事项
